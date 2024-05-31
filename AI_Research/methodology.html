@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Development of AI tool for content analysis during crisis</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,700,700i&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top d-flex align-items-center ">
+    <div class="container d-flex justify-content-between align-items-center">
+
+      <div class="logo">
+        <h1 class="text-light"><a href="index.html"><span>Research</span></a></h1>
+        <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+      </div>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="active " href="index.html">Home</a></li>
+          <li><a href="abstract.html">Abstract</a></li>
+          <li><a href="introduction.html">Introduction</a></li>
+          <li><a href="literature.html">Literature review</a></li>
+          <li><a href="methodology.html">Methodology</a></li>          
+          <li><a href="results.html">Results</a></li>
+          <li><a href="conclusion.html">Conclusion</a></li>
+          <li><a href="group.html">Group members</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <main id="main">
+
+
+    <section class="why-us section-bg" data-aos="fade-up" date-aos-delay="200">
+      <div class="container">
+
+        <div class="row">
+          <p class="description">The proposed research followed the below methodology steps in order to accomplish the expected outcome.  </p>
+
+          <h4 class="title"><a href="">
+            Library Installation </a>
+          </h4>
+          <p class="description">The first step is to install the necessary Python libraries. These libraries provide essential tools and functions for image processing, machine learning, and computer vision.
+            commands to install the “pystan” and “prophet” libraries using pip. These libraries are used for time series forecasting and trend analysis.
+            essential to ensure that we have the correct versions of these libraries installed.
+          </p>
+
+          <h4 class="title"><a href="">
+            Import Libraries </a>
+          </h4>
+          <p class="description">Once the libraries are installed, import them at the beginning of the Python script. below’s what each library does:
+          </p>
+          
+            <p>• import pandas as pd: Pandas is a powerful data manipulation library that allows us to work with structured data (e.g., CSV files, dataframes).</p>
+            <p>• import matplotlib.pyplot as plt: Matplotlib is a plotting library used for creating visualizations, including line plots, scatter plots, and histograms.</p>
+            <p>• import seaborn as sns: Seaborn is another data visualization library that provides a high-level interface for creating attractive statistical graphics.</p>
+            <p>• from fbprophet import Prophet: Prophet is a time series forecasting library developed by Facebook. It’s particularly useful for predicting trends and seasonality in data.</p>
+          
+
+          <h4 class="title"><a href="">
+            Data preprocessing and remove null values </a>
+          </h4>
+          <p class="description">Before training the machine learning model, preprocess the data. 
+            preprocessing steps include: <br>
+            <p>•	Analyzing Null values  to increase model robustness.</p>
+            
+            
+          </p>
+
+          <h4 class="title"><a href="">
+            Select relevant features and change index to date </a>
+          </h4>
+          <p class="description">Selecting relevant features involves with the most important ones that will help to the accuracy of our model. I removed Irrelevant or redundant features to simplify the model and improve its performance. Many datasets, especially those involving time series data, include a date or time column. I changed the index to date means setting the dataframe index to this date column, which can be useful for time-based operations and analyses.
+          </p>
+
+          <h4 class="title"><a href="">
+            Create dataframe and rename columns </a>
+          </h4>
+          <p class="description">Constructed a dataframe from raw data which is a csv file and then renamed the columns to more meaningful names.
+          </p>
+
+          <h4 class="title"><a href="">
+            Train model and predict future </a>
+          </h4>
+          <p class="description">Involved using historical time-series data to build a forecasting model. Passed API key to fbprophet API for validation. Fit the model for the training data.
+          </p>
+
+          <h4 class="title"><a href="">
+            Save model and make predictions </a>
+          </h4>
+          <p class="description">Saving a model means writing the trained model to disk so it can be loaded and used later. This is useful for deploying the model in production or sharing it with others.
+          </p>
+
+         <hr>
+          <h3>Tools and Technologies</h3>
+          <p>• Google Colab</p>
+          <p>• PyCharm Community Edition</p>
+          <p>• Google Form</p>
+          <p>• FBProphet</p>
+          <p>• Python</p>
+          <p>• Streamlit</p>
+          <p>• Pandas</p>
+
+          
+
+
+
+
+
+  </main><!-- End #main -->
+
+ <!-- ======= Footer ======= -->
+ <footer id="footer" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="500">
+    
+
+  <div class="footer-top">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-lg-3 col-md-6 footer-links">
+          <h4>Useful Links</h4>
+          <ul>
+            <li><i class="bx bx-chevron-right"></i> <a href="abstract.html">Abstract</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="literature.html">Literature review</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="methodology.html">Methodology</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="results.html">Results</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-3 col-md-6 footer-contact">
+          <h4>Contact Us</h4>
+          <p>
+            D.M.S.D. Dissanayake <br>              
+            <strong>Phone:</strong> +94 77 257 5785<br>
+            <strong>Email:</strong> sachinthadmsdd@gmail.com<br>
+          </p>           
+
+        </div>
+        <div class="col-lg-3 col-md-6 footer-contact">
+          <h4>.</h3>           
+          <p>
+            S.M.N.P. Senanayake <br>              
+            <strong>Phone:</strong> +94 72 913 6013<br>
+            <strong>Email:</strong> iihnep@gmail.com<br>
+          </p>            
+
+        </div>
+        <div class="col-lg-3 col-md-6 footer-contact">
+          <h4>.</h4>            
+          <p>
+            B.R.L. Jayasekara <br>              
+            <strong>Phone:</strong> +94 71 409 2410<br>
+            <strong>Email:</strong> mail.ravindu.lk@gmail.com<br>
+          </p>
+        </div>         
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="copyright">
+      &copy; Copyright <strong><span>Group 18 - 18/19 Batch, ICT Department, Faculty of Technology, USJP</span></strong>. All Rights Reserved
+    </div>
+    
+  </div>
+</footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
